@@ -21,13 +21,14 @@
 
     <!-- Embed the ServiceNow Engagement Messenger script below this comment -->
     <!-- Paste the script from ServiceNow here -->
-
-
-
-
-
-
-
+    <script src="https://dev79256.service-now.com/scripts/sn_csm_ec.js?v=5.4"></script>
+    <script>
+    SN_CSM_EC.init({
+        moduleID: "https://dev79256.service-now.com/#028703b62fb4b110883ed3f62799b6e9",
+        loadFeature: SN_CSM_EC.loadEMFeature()
+    });
+    </script>
+    <!-- End of script from ServiceNow -->
 </body>
 
 </html>
