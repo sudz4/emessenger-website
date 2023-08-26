@@ -90,8 +90,14 @@
             2. Requirements:
         </p>
         <!-- Insert the ServiceNow engagement messenger code here -->
-
-
+        
+        <script src="https://dev79256.service-now.com/scripts/sn_csm_ec.js?v=5.4"></script>
+        <script>
+        SN_CSM_EC.init({
+            moduleID: "https://dev79256.service-now.com/#028703b62fb4b110883ed3f62799b6e9",
+            loadFeature: SN_CSM_EC.loadEMFeature()
+        });
+        </script>
 
         <!-- Insert the ServiceNow engagement messenger code above here -->
     </article>
