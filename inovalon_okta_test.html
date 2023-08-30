@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inovalon</title>
+    <style>
+        /* Basic styling for the mockup */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f5f7;
+        }
+
+        header {
+            background-color: #0055AA;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003366;
+            padding: 10px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #b3c7d6;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        article {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #003366;
+            color: #b3c7d6;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+
+        h1, h2 {
+            margin: 0;
+        }
+
+        #logo {
+        max-width: 150px; /* Adjust as needed */
+        display: block;
+        margin: 0 auto;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="shark_transparent2.png" alt="Shark Logo" id="logo">
+        <h1>Inovalon</h1>
+        <p>Empowering Data-Driven Healthcare</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <article>
+        <h2>Welcome to Inovalon</h2>
+        <p>
+            1. This is a sample webpage to test the ServiceNow Engagement Messenger. 
+        </p>
+        <p>
+            2. TEST
+        </p>
+
+        <!-- PDI Okta Testing EM -->
+        <script src="https://infocenteriocorpdemo2.service-now.com/scripts/sn_csm_ec.js?v=5.4"></script>
+        <script>
+        SN_CSM_EC.init({
+            moduleID: "https://infocenteriocorpdemo2.service-now.com/#c300f5101b41b5503d9c2170604bcbb6",
+            loadFeature: SN_CSM_EC.loadEMFeature()
+        });
+        </script>     
+        
+        <!-- PDI Okta Testing EM -->
+
+    </article>
+    <footer>
+        © 2023 Inovalon. All rights reserved.
+    </footer>
+</body>
+</html>
