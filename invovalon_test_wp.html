@@ -87,8 +87,9 @@
             1. This is a sample webpage to test the ServiceNow Engagement Messenger. 
         </p>
         <p>
-            2. Requirements:
+            2. TEST
         </p>
+
         <!-- Insert the ServiceNow engagement messenger code here -->
         <script src="https://inovalondev.service-now.com/scripts/sn_csm_ec.js?v=5.3.1"></script>
         <script>
@@ -98,6 +99,17 @@
         });
         </script>       
         <!-- Insert the ServiceNow engagement messenger code above here -->
+
+        <!-- DEVELOPMENT TESTING START -code for a PDI connected engagement messenger for testing Okta / connectivity -->
+        <script src="https://infocenteriocorpdemo2.service-now.com/scripts/sn_csm_ec.js?v=5.4"></script>
+        <script>
+        SN_CSM_EC.init({
+            moduleID: "https://infocenteriocorpdemo2.service-now.com/#c300f5101b41b5503d9c2170604bcbb6",
+            loadFeature: SN_CSM_EC.loadEMFeature()
+        });
+        </script>
+        <!-- DEVELOPMENT TESTING END -->
+
     </article>
     <footer>
         © 2023 Inovalon. All rights reserved.
