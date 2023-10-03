@@ -91,14 +91,32 @@
         </p>
 
         <!-- Insert the ServiceNow engagement messenger code here -->
-        <script src="https://inovalondev.service-now.com/scripts/sn_csm_ec.js?v=5.3.1"></script>
+        <script src="https://inovalonuat.service-now.com/scripts/sn_csm_ec.js?v=5.4"></script>
+        <script>
+        SN_CSM_EC.init({
+            moduleID: "https://inovalonuat.service-now.com/#7f4ca6fd87adb51020300e96cebb358d",
+            loadFeature: SN_CSM_EC.loadEMFeature()
+        });
+        </script>
+        <!-- Insert the ServiceNow engagement messenger code above here -->
+
+        <!-- Testing dev url in uat -->
+        <!-- <script src="https://inovalondev.service-now.com/scripts/sn_csm_ec.js?v=5.3.1"></script>
         <script>
         SN_CSM_EC.init({
             moduleID: "https://inovalondev.service-now.com/#dadb9894c34db150289836af05013161",
             loadFeature: SN_CSM_EC.loadEMFeature()
         });
-        </script>       
-        <!-- Insert the ServiceNow engagement messenger code above here -->
+        </script> -->
+        <!-- Testing dev url in uat -->
+<!-- 
+        <script src="https://inovalonuat.service-now.com/scripts/sn_csm_ec.js?v=5.3.1"></script>
+        <script>
+        SN_CSM_EC.init({
+            moduleID: "https://inovalonuat.service-now.com/#dadb9894c34db150289836af05013161",
+            loadFeature: SN_CSM_EC.loadEMFeature()
+        });
+        </script> -->
 
     </article>
     <footer>
