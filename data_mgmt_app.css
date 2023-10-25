@@ -28,21 +28,10 @@ body {
     background-color: #3498db;
 }
 
-#overlay-text {
-    position: absolute;
-    top: 20%;
-    left: 0;
-    transform: rotate(-45deg);
-    transform-origin: 0 0;
-    color: red;
-    font-size: 1.5em;
-    white-space: nowrap;
-}
-
 #header {
     background-color: #3498db;
     padding: 20px;
-    text-align: center;
+    text-align: center; 
     margin-left: 200px;
     animation: slideDown 0.3s forwards;
 }
