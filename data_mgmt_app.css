@@ -49,12 +49,12 @@ body {
 /* testing overlay */
 #overlay-text {
     position: absolute;
-    top: 10%;
-    left: -15%;
+    top: 30%;
+    left: 300%;
     transform: rotate(45deg);
     transform-origin: 0 0;
     color: red;
-    font-size: 1.5em;
+    font-size: 2.0em;
     white-space: nowrap;
     z-index: 1000;
 }
